@@ -9,7 +9,7 @@ export const metadata = {
 
 // server action방식
 async function addProduct(formData: FormData) {
-    "use server";
+    "use server"
     const name = formData.get("name")?.toString();
     const description = formData.get("description")?.toString();
     const imageUrl = formData.get("imageUrl")?.toString();
